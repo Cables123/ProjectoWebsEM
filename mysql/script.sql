@@ -11,5 +11,7 @@ CREATE TABLE meteorologia.datos (
     viento FLOAT
 );
 
-INSERT INTO registros (utmx, utmy, temperatura, humedad, presion, viento) 
-VALUES (419234.5, 4582312.1, 18.5, 65.0, 1013.2, 12.5);
+
+CREATE USER 'intermerium'@'localhost' IDENTIFIED BY 'TuContraPixa';
+GRANT SELECT ON meteorologia.datos TO 'intermerium'@'localhost';
+FLUSH PRIVILEGES;
