@@ -12,6 +12,6 @@ CREATE TABLE meteorologia.datos (
 );
 
 
-CREATE USER 'intermerium'@'localhost' IDENTIFIED BY 'TuContraPixa';
+CREATE USER 'intermerium'@'%' IDENTIFIED BY 'TuContraPixa';
 GRANT SELECT ON meteorologia.datos TO 'intermerium'@'localhost';
 FLUSH PRIVILEGES;
