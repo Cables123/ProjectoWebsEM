@@ -47,4 +47,4 @@ rm -rf html/
 unzip html-webs-cables123.zip
 ```
 
->Si queremos insertar dummydata dentro de la carpeta mysql y copiamos o descargamos el "dummydata.php" necesitaras un usuario administrador.
+>Si queremos insertar dummydata dentro de la carpeta mysql y copiamos o descargamos el "dummydata.php" y entramos desde el apache para ejecutar el codigo (solo hacer una vez) (necesitaras un usuario administrador).
