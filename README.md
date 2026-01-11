@@ -31,10 +31,11 @@ FLUSH PRIVILEGES;
 ```sh
 apt install mysql-server && apt install phpmyadmin
 ```
+dentro de la configuracion de phpmyadmin alfinal de todo ponemos esto:
 ```sh
 $i++;
-$cfg['Servers'][$i]['host'] = 'ip:hostname';
-$cfg['Servers'][$i]['user'] = 'usuario';
+$cfg['Servers'][$i]['host'] = 'ip:puerto'; //ip y puerto
+$cfg['Servers'][$i]['user'] = 'usuario'; //aqui obviamente el nombre de usuario
 $cfg['Servers'][$i]['password'] = 'contra';
 $cfg['Servers'][$i]['auth_type'] = 'config';
 ```
@@ -46,4 +47,4 @@ rm -rf html/
 unzip html-webs-cables123.zip
 ```
 
->Si queremos insertar dummydata dentro de mysql
+>Si queremos insertar dummydata dentro de la carpeta mysql y copiamos o descargamos el "dummydata.php" necesitaras un usuario administrador.
