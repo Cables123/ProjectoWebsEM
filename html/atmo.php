@@ -31,7 +31,7 @@
 
         <form method="post" id="consultafecha">
             <input type="date" name="dia" id="dia" value="2025-01-01"><br>
-            <button id="botonsub" type="submit" name="enviar">Consultar Humedad</button>
+            <button id="botonsub" type="submit" name="enviar">Consultar Datos Atmosfericos</button>
         </form>
 
     </div>
